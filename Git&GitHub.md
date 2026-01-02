@@ -1,10 +1,12 @@
-#What is Git
+# Git and GitHub
+
+## What is Git
 
 Git - Version Control System is a tool that helps to track changes in code
 
 Git is a Version Control System 
 
-#Why Git
+## Why Git
 
 It is Popular
 
@@ -12,23 +14,23 @@ It is Free & Open Source
 
 It is Fast and Scalable
 
-#Official Website for Git : https://git-scm.com/
+### Official Website for [Git](https://git-scm.com/)
 
-#What Git Does
+## What Git Does
 
 Tracks the History of Code
 
 Helps to Collaborate with Teams and Others
 
-#What is Github 
+## What is Github 
 
 GitHub - Website that allows developers to store and manage their code using Git.
 
-#Official Website for GitHub : https://github.com/
+### Official Website for [GitHub](https://github.com/)
 
 ---> README.md -> md means Mark Down
 
-#Setting Up Git 
+## Setting Up Git 
 
 Visual Studio Code
 
@@ -36,15 +38,17 @@ Windows(Git Bash)
 
 Mac(Terminal)
 
-# Configuring Git 
+### Configuring Git 
 
+```git
 git config --global user.name "My Username"
 
 git config --global user.email "My Email-ID"
 
 git config --list
+```
 
-#Clone and Status
+## Clone and Status
 
 **Clone - Cloning a Repository on our Local Machine
          
@@ -58,8 +62,9 @@ git config --list
 
 ---> M - Modified
 
-#Types of Git Status
+### Types of Git Status
 
+```git
 **untracked -> new files that git doesnt yet track
 
 **modified -> changed
@@ -67,8 +72,9 @@ git config --list
 **staged -> file is ready to be commited
 
 **unmodified -> unchanged
+```
 
-#Add & Commit
+## Add & Commit
 
 **add - adds new or changed files in your working directory to the Git staging Area
 
@@ -80,7 +86,7 @@ git config --list
 
 --->git add . -> covers all files 
 
-#Push Command 
+## Push Command 
 
 **push - upload local repo content to remote repo
 
@@ -88,7 +94,7 @@ git config --list
 
 ---> git push origin main -> origin means local file name , main means the branch in github repository 
 
-#Init Command
+## Init Command
 
 **init - used to create a new git repo
 
@@ -103,6 +109,7 @@ git config --list
 
 --->U -> Untracked
 
+```git
 --->Ex : 
     ->Create a Folder
     ->git init
@@ -118,14 +125,15 @@ git config --list
     ->git branch -M main
     ->git push -u orgin main
         ---> u means upstream
+```
 
-#WorkFlow
+# WorkFlow
 
 --->Local Git
 
 **GitHub Repo -> Clone -> Changes -> Add -> Commit -> Push
 
-#Branch Commands
+# Branch Commands
 
 --->git branch                           (to check branch)
 
@@ -137,7 +145,7 @@ git config --list
 
 --->git branch -d <-branch name->        (to delete branch)
 
-#Merging Codes
+# Merging Codes
 
 **Way 1
 
@@ -149,21 +157,21 @@ git config --list
 
 --->Create a PR
 
-#Pull Request 
+# Pull Request 
 
   (It Tells You Tell Others about Changes you've pushed to a branch in a repository on GitHub)
 
-#Pull Command
+# Pull Command
 
    (git pull origin main)
 
    (Used to fetch and download content from a remote repo and immediately update the local repo to match the count)
 
-#Resolving Merge Conflicts 
+# Resolving Merge Conflicts 
 
    (An Event that takes place where Git is unable to automatically resolve differences in code between two commits)
 
-#Undoing Changes
+# Undoing Changes
 
 ---> Case 1 : Staged Changes
 
@@ -181,7 +189,7 @@ git config --list
 
 --->git log -> to check the commits hisotry
 
-#Fork
+# Fork
 
     (Afork is a new repository that shares code and visibility settings with the original "upstream" repository)
 
